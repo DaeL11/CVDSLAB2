@@ -7,4 +7,7 @@ public class Quadrilateral  implements Shape{
     public int getNumberOfEdges(){
         return 4;
     }
+    public static Shape figura(){
+        return new Quadrilateral();
+    }
 }

@@ -7,4 +7,7 @@ public class Hexagon implements Shape{
     public int getNumberOfEdges(){
         return 6;
     }
+    public static Shape figura(){
+        return new Hexagon();
+    }
 }

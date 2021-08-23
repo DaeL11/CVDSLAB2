@@ -7,4 +7,7 @@ public class Triangle  implements Shape{
     public int getNumberOfEdges(){
         return 3;
     }
+    public static Shape figura(){
+        return new Triangle();
+    }
 }

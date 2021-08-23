@@ -7,4 +7,7 @@ public class Pentagon  implements Shape{
     public int getNumberOfEdges(){
         return 5;
     }
+    public static Shape figura(){
+        return new Pentagon();
+    }
 }

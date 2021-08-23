@@ -2,5 +2,7 @@ package edu.eci.cvds.patterns.shapes;
 
 public interface Shape {
     public int getNumberOfEdges();
-    abstract Shape figura();
+    default static Shape figura(){
+        return null;
+    };
 }
